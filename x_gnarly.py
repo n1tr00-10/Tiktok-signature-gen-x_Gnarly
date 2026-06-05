@@ -183,7 +183,6 @@ def compute_xgnarly(query_string, ua, body="", ts_ms=None):
     
     result = result.replace('+', '-')
     
-    # Ensure it ends with '=='
     if not result.endswith('=='):
         if result.endswith('='):
             result += '='
